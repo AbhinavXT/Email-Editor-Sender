@@ -12,7 +12,7 @@ const bodyparser = require('body-parser')
 const shopifyApiPublicKey = process.env.SHOPIFY_API_PUBLIC_KEY
 const shopifyApiSecretKey = process.env.SHOPIFY_API_SECRET_KEY
 const scopes = 'write_products'
-const appUrl = 'http://localhost:3000/'
+const appUrl = 'http://localhost:3000'
 
 const app = express()
 const PORT = process.env.PORT
